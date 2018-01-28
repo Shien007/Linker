@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FairyLink.Actor.Character" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AwQIgYAAAKEIIwCAAIIAMEAAQDCGCQiAAEBQAACIIAE=</HashCode>
+      <FileName>Actor\Character.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CharacterControl" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FairyLink.Actor.CharacterControl" Collapsed="true">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAIACAAAQByBACAAABAAAECABCUABAAAAAACAAAA=</HashCode>
+      <FileName>Actor\CharacterControl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.216" Collapsed="true" />
+  </Class>
+  <Class Name="FairyLink.Actor.Enemy_01" Collapsed="true">
+    <Position X="2" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQICAAAAIABAwgAIAIAAAAAAABAARAMQAACQAAAACA=</HashCode>
+      <FileName>Actor\Enemy_01.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FairyLink.Actor.Player" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAYMCgAAAIACBwQgMAJAgAAAABFAAxDswCIAyBAmAMA=</HashCode>
+      <FileName>Actor\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FairyLink.Actor.Beam" Collapsed="true">
+    <Position X="3.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIAAAQAAAAIAAAAAAAAAABAIQAAAAAAAAAA=</HashCode>
+      <FileName>Actor\Beam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FairyLink.Actor.Effect" Collapsed="true">
+    <Position X="3.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIAAgQAgEAAAEAAAABBAAACAAAAAAAAAAQE=</HashCode>
+      <FileName>Actor\ModeManager\Effect.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="EffectControl" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FairyLink.Actor.EffectControl" Collapsed="true">
+    <Position X="1.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAQAAAAAQgAAAAAAAAEAAAAAACAAgAAAAAACAA=</HashCode>
+      <FileName>Actor\ModeManager\EffectControl.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Character" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FairyLink.Device.EffectMotion" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAcAAAAIAAAAAQAEACAAAgAgCAAAAAAAAAIAAAAACAA=</HashCode>
+      <FileName>Device\EffectMotion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Character" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FairyLink.Device.Motion" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAcAAAAIAAAAAUAEACAAAAAgCAAAAAAAAAIAAAAACAA=</HashCode>
+      <FileName>Device\Motion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Character" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Yu Gothic UI" Size="9" />
+</ClassDiagram>

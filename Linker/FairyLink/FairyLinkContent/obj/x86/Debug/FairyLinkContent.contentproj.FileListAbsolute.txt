@@ -1,0 +1,3 @@
+D:\制作\FairyLink\FairyLink\FairyLink\FairyLinkContent\obj\x86\Debug\FairyLinkContent.contentprojResolveAssemblyReference.cache
+D:\制作\ゲーム制作\ゲーム\trunk\FairyLink\FairyLink\FairyLink\FairyLinkContent\obj\x86\Debug\FairyLinkContent.contentprojResolveAssemblyReference.cache
+C:\Users\windows7\Desktop\作品提出_柏杳\Linker(C#)\FairyLink\FairyLink\FairyLinkContent\obj\x86\Debug\FairyLinkContent.contentprojResolveAssemblyReference.cache
